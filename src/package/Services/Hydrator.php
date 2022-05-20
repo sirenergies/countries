@@ -117,10 +117,9 @@ class Hydrator
 
         $this->addCountry($countryCode, $country);
 
-// Iterator is buggy and make PHP8.1 crash
-//        foreach ($elements as $element => $enabled) {
-//            $this->hydrateCountryElement($countryCode, $element, $enabled);
-//        }
+        foreach ($elements as $element => $enabled) {
+            $this->hydrateCountryElement($countryCode, $element, $enabled);
+        }
 
         return $this->getCountry($countryCode);
     }
