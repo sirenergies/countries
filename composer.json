@@ -29,11 +29,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/asbiin/coollection"
+            "url": "https://github.com/sirenergies/coollection"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/asbiin/ia-collection"
+            "url": "https://github.com/sirenergies/ia-collection"
         }
     ],
     "require": {
